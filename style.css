@@ -1,0 +1,46 @@
+"{
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {
+        width: 100px;
+        background:url(pic/bg.jpg);
+        background-positon: center;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        padding: 15px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar .logo {
+        width: 160px;
+        cursor: pointer;
+        margin: top -3%;
+        margin-left: -2%;
+    }
+
+     ul {
+        margin: top -4%;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navbar li {
+        margin: 0 10px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+    }
+}
